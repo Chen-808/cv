@@ -1,0 +1,103 @@
+html, body{
+  background-attachment: fixed;
+  background-image: url("images/grid-bg.jpg");
+  margin: 0;
+  height: 100%;
+  min-height:100%;
+  font-family: 'Lora', serif;
+}
+
+p{
+  color: white;
+}
+
+label{
+  color:white;
+}
+
+li{
+  color:white;
+}
+
+a{
+  color:white;
+  margin:10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #b9d4f1;
+}
+.title{
+  display:block;
+  margin:0 auto;
+  width:500px;
+}
+
+.div-1{
+ width:50%;
+ margin: 100px auto 0px auto;
+}
+
+.content{
+margin-left: 140px;
+}
+
+#contact-me-page{
+    height: 84%;
+}
+
+#title-container{
+   margin: 100px auto 0px auto;
+}
+#bio-top{
+  width: 600px;
+  display:block;
+  margin:auto;
+}
+
+
+/*------------------------------*/
+
+#title-edu{
+  width: 400px;
+}
+#title-project{
+  width:450px;
+}
+
+#interest-container{
+  padding-bottom: 150px;
+}
+
+#contact-container{
+/*  padding-bottom: 245px;*/
+  height:100%;
+}
+
+#form-container{
+  width:50%;
+  margin: 50px auto 0px auto;
+  text-align: center;
+}
+
+#bottom-container{
+  background-color: rgb(60,60,60);
+  /*
+  background-attachment: fixed;
+  background-image: url("images/bottom-art.jpg");*/
+/*  position: fixed;*/
+  width:100%;
+  height:80px;
+  bottom:0%;
+  left: 0%;
+  margin:0;
+  z-index: 2;
+  padding: 30px 0px 20px 0px;
+  text-align: center;
+}
+
+#copyright{
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
